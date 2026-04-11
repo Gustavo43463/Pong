@@ -3,14 +3,43 @@ if global.QtdJogadores	= 2 exit
 	vspeed	= global.VelocidadeVBola
 }
 
-if vspeed	>= VelIa
+if global.Dificuldade	= 1
 {
-	vspeed 	 = VelIa
+	if vspeed	>= VelEas
+	{
+		vspeed 	 = VelEas
+	}
+
+	if vspeed	<= -VelEas
+	{
+		vspeed	 = -VelEas
+	}
 }
 
-if vspeed	<= -VelIa
+if global.Dificuldade	= 2
 {
-	vspeed	 = -VelIa
+	if vspeed	>= VelMed
+	{
+		vspeed 	 = VelMed
+	}
+
+	if vspeed	<= -VelMed
+	{
+		vspeed	 = -VelMed
+	}
+}
+
+if global.Dificuldade	= 3
+{
+	if vspeed	>= VelHard
+	{
+		vspeed 	 = VelHard
+	}
+
+	if vspeed	<= -VelHard
+	{
+		vspeed	 = -VelHard
+	}
 }
 /*
 ou referência direta para a instância da bola

@@ -39,6 +39,7 @@
     {"id":{"name":"ObjBotao","path":"objects/ObjBotao/ObjBotao.yy",},},
     {"id":{"name":"ObjBotao2","path":"objects/ObjBotao2/ObjBotao2.yy",},},
     {"id":{"name":"ObjColisao","path":"objects/ObjColisao/ObjColisao.yy",},},
+    {"id":{"name":"ObjDificuldade","path":"objects/ObjDificuldade/ObjDificuldade.yy",},},
     {"id":{"name":"ObjFundo","path":"objects/ObjFundo/ObjFundo.yy",},},
     {"id":{"name":"ObjGol","path":"objects/ObjGol/ObjGol.yy",},},
     {"id":{"name":"ObjOlhos","path":"objects/ObjOlhos/ObjOlhos.yy",},},
